@@ -12,6 +12,10 @@ Essa combinação permite automatizar fluxos completos de scraping mesmo em pág
 
 Aqui uma implementação simples que você pode ajustar para seu usos específicos.
 
+> **AVISO IMPORTANTE**  
+A URL de teste do Google reCaptcha é do site oficial da Google, e quando ela detecta uma atividade anormal, ele bloqueia o acesso. Para evitar isso, use um proxy. Caso você execute muitas vezes, ele vai bloquear sua sessão por alguns minutos, o que aparentará que o script parou de funcionar.
+
+
 ## Criando sua conta no CapSolver
 
 1. Crie uma conta no site do CapSolver para conseguir a chave da API. Clique aqui: [https://dashboard.capsolver.com/passport/register](https://dashboard.capsolver.com/passport/register?inviteCode=A-MrvSbq8WsM)
