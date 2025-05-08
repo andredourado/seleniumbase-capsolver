@@ -1,8 +1,6 @@
-import random
 import os
 import time
 from seleniumbase import SB
-
 
 def wait_for_captcha_solution(sb, timeout=60):
     start_time = time.time()
@@ -31,7 +29,7 @@ def main():
         token = wait_for_captcha_solution(sb)
         print(token)
 
-        sb.wait_for_element('#recaptcha-demo-submit', timeout=20)
+        sb.wait_for_element('#recaptcha-demo-submit', timeout=60)
         sb.click('#recaptcha-demo-submit')
         sb.sleep(3)
 
