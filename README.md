@@ -1,3 +1,5 @@
+# SeleniumBase e CapSolver
+
 ## Criando sua conta no CapSolver
 
 1. Crie uma conta no site do CapSolver para conseguir a chave da API. Clique aqui: [https://dashboard.capsolver.com/passport/register](https://dashboard.capsolver.com/passport/register?inviteCode=A-MrvSbq8WsM)
